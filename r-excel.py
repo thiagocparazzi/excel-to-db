@@ -11,7 +11,7 @@ df = pd.read_excel(r'D:\Dados\Downloads\contrato.xlsx')
 #print(df)
 
 #conectando com o banco de dados MongoDB Atlas
-client = MongoClient(r'mongodb+srv://nickinho:nickinho@cluster0-1azlf.mongodb.net/test?retryWrites=true&w=majority')
+client = MongoClient(r'»»MONGODB URL OF YOUR CLUSTER««')
 db = client.cluster0
 
 collection = db['CFTS-LOOACPO']
